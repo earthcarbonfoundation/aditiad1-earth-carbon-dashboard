@@ -125,7 +125,7 @@
   </div>
 
   <div class="footer">
-    <p>Data as of January 2026 | Earth Carbon Registry | Verified via IPCC Tier 2 & CEA 2022 emission factors</p>
+    <p>Data as of January 2026 | Earth Carbon Registry | Verified via IPCC Tier 2 & CEA 2026 emission factors</p>
     <p>Permanent documentation of decentralized climate action • Vasudhaiva Kutumbakam in practice</p>
     <p style="margin-top:1rem; font-weight:600; color:var(--primary);">
       🌱 Supporting ADC Bank's cooperative-led climate action framework under Paris Agreement Article 6.4
@@ -145,7 +145,7 @@
     // CO2 Chart
     new Chart(document.getElementById('co2Chart'), {
       type: 'bar',
-       {
+      data: {
         labels: interventions,
         datasets: [{
           label: 'Annual tCO₂e Saved',
@@ -173,7 +173,7 @@
     // Money Chart (log scale for visibility)
     new Chart(document.getElementById('moneyChart'), {
       type: 'bar',
-       {
+      data: {
         labels: interventions,
         datasets: [{
           label: '₹ Saved Till Date',
