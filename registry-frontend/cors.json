@@ -1,0 +1,23 @@
+[
+    {
+        "origin": [
+            "http://localhost:3000",
+            "https://registryearthcarbon.org",
+            "https://registry-frontend-dev--earthcarbonregistry-1e6ba.asia-southeast1.hosted.app"
+        ],
+        "method": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE",
+            "HEAD"
+        ],
+        "responseHeader": [
+            "Content-Type",
+            "Authorization",
+            "x-firebase-storage-version",
+            "x-goog-upload-protocol"
+        ],
+        "maxAgeSeconds": 3600
+    }
+]
